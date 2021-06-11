@@ -1,0 +1,12 @@
+7e67594 Thu Jan 14 21:09:39 2021 +0000 Add submition directories
+dc03254 Thu Jan 14 21:02:07 2021 +0000 add the Kubernetes directory
+c3fd5e9 Thu Jan 14 11:08:32 2021 +0000 Set Vagrant box to use the latest image
+546fe77 Thu Jan 14 08:30:11 2021 +0000 Add Vagrantfile
+7ee6817 Wed Jan 13 10:12:21 2021 +0000 Delete a
+16f19aa Wed Jan 13 10:11:57 2021 +0000 screenshots folder
+5b2a334 Wed Jan 13 09:50:35 2021 +0000 screenshots folder
+cb16a0b Wed Jan 13 09:09:13 2021 +0000 move file
+71f82b0 Mon Jan 11 21:24:31 2021 +0000 fix typo
+217373d Fri Jan 8 21:07:35 2021 +0000 Update README.md
+2790b0f Wed Jan 6 11:57:01 2021 +0000 Add starter files for the project
+1d55088 Wed Jan 6 11:13:50 2021 +0000 Initial commit

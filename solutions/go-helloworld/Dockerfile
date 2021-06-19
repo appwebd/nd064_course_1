@@ -4,9 +4,11 @@ WORKDIR /go/src/app
 
 ADD . .
 
-RUN go mod init
+# https://blog.golang.org/go116-module-changes
+RUN go env -w GO111MODULE=auto
+
 RUN go build -o helloworld
-RUN go mod tidy
+
 
 EXPOSE 6111
 

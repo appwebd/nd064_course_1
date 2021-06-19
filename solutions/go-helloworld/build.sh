@@ -1,6 +1,6 @@
 #!/bin/bash
 # Create module file
-go mod init main.go
+# go mod init main.go
 
 # build the image
 docker build -t go-helloworld .

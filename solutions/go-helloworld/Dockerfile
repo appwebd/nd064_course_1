@@ -4,7 +4,9 @@ WORKDIR /go/src/app
 
 ADD . .
 
-RUN go build  -o helloworld
+RUN go mod init
+RUN go build -o helloworld
+RUN go mod tidy
 
 EXPOSE 6111
 

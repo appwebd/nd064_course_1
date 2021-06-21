@@ -1,3 +1,11 @@
+6759c80 Sun Jun 20 20:22:32 2021 -0400 Was added Dockerfile and image of exercise python-helloworld
+6c51a66 Sun Jun 20 20:22:18 2021 -0400 Was added Dockerfile and image of exercise python-helloworld
+168991c Sun Jun 20 19:26:02 2021 -0400 Update README.md
+e259ed3 Sat Jun 19 19:56:32 2021 -0400 Update .gitignore files
+12401e7 Sat Jun 19 19:54:55 2021 -0400 Update .gitignore files
+39eee57 Sat Jun 19 19:52:00 2021 -0400 Update Vagrantfile
+07b81db Sat Jun 19 19:46:51 2021 -0400 was updated Dockerfile https://blog.golang.org/go116-module-changes
+c7fdea8 Sat Jun 19 19:31:15 2021 -0400 was renamed manifest files of kubernetes
 48340fe Sat Jun 19 19:29:42 2021 -0400 Revert "was renamed manifest files of kubernetes"
 38b8842 Sat Jun 19 19:25:49 2021 -0400 was renamed manifest files of kubernetes
 9a7eb36 Sat Jun 19 19:21:03 2021 -0400 Updated Dockerfile, and added image of hub.docker.com

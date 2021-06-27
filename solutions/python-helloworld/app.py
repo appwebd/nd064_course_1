@@ -12,7 +12,7 @@ def healthcheck():
             mimetype='application/json'
     )
 
-    app.logger.info('Status request successfull')
+    app.logger.info('Status request successful')
     return response
 
 @app.route('/metrics')
@@ -23,12 +23,12 @@ def metrics():
             mimetype='application/json'
     )
 
-    app.logger.info('Metrics request successfull')
+    app.logger.info('Metrics request successful')
     return response
 
 @app.route("/")
 def hello():
-    app.logger.info('Main request successfull')
+    app.logger.info('Main request successful')
 
     return "Hello World!"
 

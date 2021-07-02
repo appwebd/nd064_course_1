@@ -1,14 +1,27 @@
-# Go Hello World
+Steps to package the application using Docker commands:
 
-This is a simple Go web application that prints a "Hello World" message.
+``` 
+# build the image
+docker build -t go-helloworld .
 
-## Run the application
+# run the image
+docker run -d -p 6111:6111 go-helloworld
 
-This application listens on port `6111`
+# tag the image
+docker tag go-helloworld appwebd/go-helloworld:v1.0.0
 
-To run the application, use the following command:
+# push the image
+docker push appwebd/go-helloworld:v1.0.0
+
+# login into DockerHub
+docker login
 ```
-go run main.go 
-```
 
-Access the application on: http://127.0.0.1:6111/
+Deploy to Kubernetes:
+```
+# run the application
+kubectl run test --image appwebd/go-helloworld:v1.0.0
+
+# access the application on the local host
+kubectl port-forward test-97856cf4-6fvjw 7111:6111
+```

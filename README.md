@@ -31,8 +31,8 @@ Course Outline| Welcome, Architecture Considerations,  Container Orchestration, 
 ✨ | Tool / Dependency / Environment |  Link
 --- | ---   | --- 
 1   | Python                                  | [🔗](https://www.python.org/downloads/)
-2   | Git                                     |  [🔗](https://git-scm.com/downloads)
-3   | Docker                                  |  [🔗](https://docs.docker.com/get-docker/)
+2   | Git                                     | [🔗](https://git-scm.com/downloads)
+3   | Docker                                  | [🔗](https://docs.docker.com/get-docker/)
 4   | Vagrant                                 | [🔗](https://www.vagrantup.com/downloads)
 5   | VirtualBox V6.1.16  or a higher version | [🔗](https://www.virtualbox.org/wiki/Downloads)
 

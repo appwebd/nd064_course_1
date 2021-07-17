@@ -17,7 +17,7 @@ Was done | Task List
 
 Once all the pre-requisites are completed, you can get started on developing endpoints to describe the application state.
 
-You will found more feedback about this exercise in folder video
+You will found more feedback about this exercise in the folder video
 
 
 

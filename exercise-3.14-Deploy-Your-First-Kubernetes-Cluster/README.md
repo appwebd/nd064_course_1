@@ -21,7 +21,7 @@ Was done | Task List
 &#9745; | Navigate inside the exercises directory and examine the Vagrant file
 &#9745; | Create a vagrant box using "vagrant up" command (Note: you need to be in the same repository the Vagrantfile for this command to work)
 &#9745; | SSH into the vagrant box by using "vagrant ssh" command
-&#9745; | Deploy a kubernetes clusted using k3s https://k3s.io/
+&#9745; | Deploy a kubernetes cluster using k3s https://k3s.io/
 &#9745; | Examine your cluster using kubectl command (Note: you need to be root to access the kubeconfig file, use "sudo su -" before using kubectl commands)
  
 

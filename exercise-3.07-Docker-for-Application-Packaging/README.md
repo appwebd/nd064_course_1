@@ -18,7 +18,7 @@ Was done | Task List
 Once you can access the application through the local browser, the next steps are to package the application using Docker.
 
 
-You will found more feedback about this exercise in the folder image
+was created images for this exercise.
 
 Steps to package the application using Docker commands:
 

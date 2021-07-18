@@ -1,3 +1,25 @@
+5571c66 Sat Jul 17 21:06:22 2021 -0400 re-creating exercise lesson 3.25 Declarative Kubernetes Manifests
+1a14e05 Sat Jul 17 20:57:04 2021 -0400 re-creating exercise lesson 3.21 Kubernetes-Cluster
+5f314cf Sat Jul 17 20:38:09 2021 -0400 re-creating exercise lesson 3.21 Kubernetes-Cluster
+3316852 Sat Jul 17 19:16:26 2021 -0400 re-creating exercise lesson 3.14 Exercise: Deploy Your First Kubernetes Cluster
+41faa72 Sat Jul 17 19:15:54 2021 -0400 re-creating exercise lesson 3.14 Exercise: Deploy Your First Kubernetes Cluster
+759b6c9 Sat Jul 17 17:07:15 2021 -0400 re-creating exercise lesson 3.04 Exercise: Docker Walkthrough
+4d88a3b Sat Jul 17 16:42:37 2021 -0400 re-creating exercise lesson 2.11 Exercise: Endpoints for Application Status
+55c1479 Sat Jul 17 16:13:54 2021 -0400 re-creating exercise lesson 3.07 Exercise: Docker for Application Packaging
+631f700 Sat Jul 17 15:41:45 2021 -0400 re-creating exercise lesson 2.13 Exercise: Application Logging
+ac64847 Sat Jul 17 15:30:17 2021 -0400 re-creating exercise lesson 2.11 Exercise: Endpoints for Application Status
+f50c0ff Sat Jul 17 15:28:10 2021 -0400 re-creating exercise lesson 2.11 Exercise: Endpoints for Application Status
+f3d15fe Sat Jul 17 14:50:26 2021 -0400 Updated README.md
+7dc78dd Sat Jul 17 14:38:38 2021 -0400 Updated README.md
+aa999a4 Thu Jul 8 22:22:17 2021 -0400 re-creating exercise lesson 3.25 Exercise: Declarative Kubernetes Manifests
+a28d882 Sun Jul 4 20:14:17 2021 -0400 re-creating exercise lesson 3.14 Exercise: Deploy Your First Kubernetes Cluster
+df1c244 Thu Jul 1 22:34:41 2021 -0400 re-creating exercise lesson 3.7 Exercise Docker for Application Packaging
+cb3a38e Thu Jul 1 22:01:24 2021 -0400 re-creating exercise lesson 3.4 Docker Walkthrough, 3.7 Exercise Docker for Application Packaging
+aba0a71 Wed Jun 30 20:43:57 2021 -0400 re-creating exercise lesson 2.12 Exercise: Endpoints for Application Status
+053c580 Wed Jun 30 20:40:28 2021 -0400 re-creating exercise lesson 2.12 Exercise: Endpoints for Application Status
+81d9605 Sat Jun 26 21:02:16 2021 -0400 Was updated argocd-helm-python-prod.yaml file
+979f862 Sat Jun 26 20:57:32 2021 -0400 Was updated argocd-helm-python.yaml file
+32fb423 Sun Jun 20 20:24:52 2021 -0400 Was updated CHANGELOG file
 6759c80 Sun Jun 20 20:22:32 2021 -0400 Was added Dockerfile and image of exercise python-helloworld
 6c51a66 Sun Jun 20 20:22:18 2021 -0400 Was added Dockerfile and image of exercise python-helloworld
 168991c Sun Jun 20 19:26:02 2021 -0400 Update README.md

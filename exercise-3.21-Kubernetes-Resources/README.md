@@ -48,15 +48,33 @@ kubectl create ns demo
 # label the namespace
 kubectl label ns demo tier=test
 
+# verify it: get all namespaces
+kubectl get ns
+
+kubectl get ns demo --show-labels
+
 # create the nginx-alpine deployment
 kubectl create deploy nginx-alpine --image=nginx:alpine  --replicas=3 --namespace demo
 
 # label the deployment
-kubectl label deploy nginx-alpine app=nginx tag=alpine --namespace demo
+kubectl label deploy nginx-alpine app=nginx tag=alpine --namespace demo  --overwrite=true
+
+# verify --show-labels
+kubectl get deploy nginx-alpine -n demo --show-labels
+
+# verify Describe the deployment in the ns
+kubectl describe deploy nginx-alpine -n demo
 
 # expose the nginx-alpine deployment, which will create a service
 kubectl expose deployment nginx-alpine --port=8111 --namespace demo
 
+# verify - get svc in the namespac
+kubectl get svc -n demo
+
 # create a config map
 kubectl create configmap nginx-version --from-literal=version=alpine --namespace demo
+
+# verify : - get confirmap in demo ns
+kubectl get cm nginx-version -n demo
+
 ```

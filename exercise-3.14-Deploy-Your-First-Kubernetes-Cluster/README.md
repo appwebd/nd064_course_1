@@ -25,4 +25,4 @@ Was done | Task List
 &#9745; | Examine your cluster using kubectl command (Note: you need to be root to access the kubeconfig file, use "sudo su -" before using kubectl commands)
  
 
-You will found feedback about this exercise in the folder images
+Was created images for this exercise.

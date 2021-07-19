@@ -1,0 +1,62 @@
+sudo su -
+
+# Install this packages first
+zypper in net-tools-deprecated
+zypper install apparmor-parser
+
+# first install k3s, then
+
+kubectl get po -A
+kubectl create ns argocd
+kubectl get ns
+
+# install argoCD
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+
+
+# Install cli of ArgoCD
+VERSION=$(curl --silent "https://api.github.com/repos/argoproj/argo-cd/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/')
+
+curl -sSL -o /usr/local/bin/argocd https://github.com/argoproj/argo-cd/releases/download/$VERSION/argocd-linux-amd64
+
+
+chmod +x /usr/local/bin/argocd
+ls -lF /usr/local/bin/
+
+
+kubectl apply -f https://raw.githubusercontent.com/udacity/nd064_course_1/main/solutions/argocd/argocd-server-nodeport.yaml
+
+kubectl get svc -n argocd
+
+kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d && echo GsxtdXwqoWRPbSde
+
+# Open your browser
+https://192.168.50.4:30007/
+
+or
+
+https://192.168.50.4:30008/
+
+
+# en consola
+kubectl delete ns demo
+
+kubectl apply -f https://raw.githubusercontent.com/udacity/nd064_course_1/main/solutions/argocd/argocd-nginx.yaml
+
+kubectl get all -n demo
+
+kubectl get ns
+
+kubectl get deploy -n demo
+
+kubectl get svc -n demo
+
+kubectl get cm -n demo
+
+kubectl get po -n argocd
+
+kubectl get all -n argocd
+
+
+
+
